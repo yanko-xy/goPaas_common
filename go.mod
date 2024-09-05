@@ -7,6 +7,8 @@ require (
 	github.com/asim/go-micro/v3 v3.5.2-0.20210630062103-c13bb07171bc
 	github.com/opentracing/opentracing-go v1.2.0
 	github.com/uber/jaeger-client-go v2.30.0+incompatible
+	go.uber.org/zap v1.10.0
+	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 )
 
 require (
@@ -36,6 +38,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/uber/jaeger-lib v2.4.1+incompatible // indirect
 	go.uber.org/atomic v1.4.0 // indirect
+	go.uber.org/multierr v1.1.0 // indirect
 	golang.org/x/net v0.0.0-20210510120150-4163338589ed // indirect
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/sys v0.0.0-20210502180810-71e4cd670f79 // indirect
